@@ -18,3 +18,6 @@ ro.miui.customized.region      u:object_r:exported_system_prop:s0
 # Misc
 ro.carrier.name	               u:object_r:exported_system_prop:s0
 persist.hydra.mem_trace	       u:object_r:exported_system_prop:s0
+
+# Hardware
+ro.hardware.chipname           u:object_r:exported_default_prop:s0
