@@ -111,7 +111,6 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 # Audio configs
 vendor/etc/audio/sku_ukee/adsp_sleep_monitor.conf
 vendor/etc/audio/sku_ukee/audio_effects.conf
-vendor/etc/audio/sku_ukee/audio_effects.xml
 vendor/etc/audio/sku_ukee/mixer_paths_overlay_dynamic.xml
 vendor/etc/audio/sku_ukee/mixer_paths_overlay_static.xml
 vendor/etc/audio/sku_ukee/mixer_paths_ukee_cdp.xml
