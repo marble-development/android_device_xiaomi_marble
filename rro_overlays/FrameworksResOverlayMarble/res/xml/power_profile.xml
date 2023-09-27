@@ -5,9 +5,6 @@
 -->
 <device name="Android">
 
-    <!-- No extra UI options. This is the default. -->
-    <item name="none">0</item>
-
     <!-- Additional power used when screen is turned on at minimum brightness -->
     <item name="screen.on.display0">104.6</item>
 
