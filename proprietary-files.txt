@@ -221,12 +221,12 @@ vendor/lib64/libsndcardparser.so
 vendor/lib64/libxlog_vendor.so
 
 # Audio soundfx
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
+vendor/lib/soundfx/libqcbassboost.so|75266de6e9d0eeca3cc40451e144889f21e733f9
+vendor/lib/soundfx/libqcreverb.so|74ab2e295efc544d078378c6f73280d454901707
+vendor/lib/soundfx/libqcvirt.so|2d4f333804fb8a9b2b2d748473f9c531accbb399
+vendor/lib64/soundfx/libqcbassboost.so|708756550c0fbf42c0e96fba2f82588d69d26624
+vendor/lib64/soundfx/libqcreverb.so|b05c0ce2831aeb777a4b498408b32c63d81e797a
+vendor/lib64/soundfx/libqcvirt.so|69a2e48c588a3cc388cec47033c629858b64b470
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libbundlewrapper.so
