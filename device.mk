@@ -75,6 +75,21 @@ PRODUCT_PACKAGES += \
     QtiTelephony \
     qti-telephony-common
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    charger_fw_fstab.qti \
+    fstab.qcom \
+    init.class_main.sh \
+    init.qcom.class_core.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.rc \
+    init.qcom.sh \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.qcom.rc \
+    ueventd-odm.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
