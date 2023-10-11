@@ -69,6 +69,12 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# RIL
+PRODUCT_PACKAGES += \
+    Ims \
+    QtiTelephony \
+    qti-telephony-common
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
