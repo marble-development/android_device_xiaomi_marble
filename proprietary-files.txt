@@ -1357,6 +1357,7 @@ vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib/libMiDispDevManager.so
 vendor/lib/libcolortempmode.so
+vendor/lib/libdisplayconfig.qti.so
 vendor/lib/libdisplaycount.so
 vendor/lib/libdisplayfeature.so
 vendor/lib/libdisplayfeatureservice.so
@@ -1379,6 +1380,7 @@ vendor/lib64/hw/displayfeature.default.so
 vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
 vendor/lib64/libMiDispDevManager.so
 vendor/lib64/libcolortempmode.so
+vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdisplaycount.so
 vendor/lib64/libdisplayfeature.so
 vendor/lib64/libdisplayfeatureservice.so
