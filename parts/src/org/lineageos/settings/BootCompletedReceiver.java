@@ -26,7 +26,6 @@ import android.view.Display.HdrCapabilities;
 import android.view.SurfaceControl;
 
 import org.lineageos.settings.camera.NfcCameraService;
-import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.dolby.DolbyUtils;
 import org.lineageos.settings.doze.AodBrightnessService;
@@ -66,9 +65,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Pocket
         PocketService.startService(context);
-
-        // DisplayFeature
-        ColorService.startService(context);
 
         // NFC
         NfcCameraService.startService(context);
