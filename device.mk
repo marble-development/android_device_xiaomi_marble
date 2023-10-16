@@ -546,6 +546,10 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# Vendor API
+BOARD_API_LEVEL := 31
+BOARD_SHIPPING_API_LEVEL := 31
+
 # Verified boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
@@ -580,11 +584,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac_vendor
-
-# Vendor API
-BOARD_API_LEVEL := 31
-BOARD_SHIPPING_API_LEVEL := 31
