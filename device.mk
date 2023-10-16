@@ -281,8 +281,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_PACKAGES += \
@@ -345,7 +345,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-derp
 
 PRODUCT_PACKAGES += \
     AospWifiResOverlayMarble \
@@ -377,8 +377,8 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+#PRODUCT_PACKAGES += \
+#    XiaomiParts
 
 # Perf
 PRODUCT_PACKAGES += \
