@@ -562,7 +562,7 @@
 
     <!-- Flag indicating whether we should enable the automatic brightness.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
-    <bool name="config_automatic_brightness_available">true</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
 
     <!-- Whether the always on display mode is available. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
