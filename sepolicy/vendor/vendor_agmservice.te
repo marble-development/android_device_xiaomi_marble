@@ -1,0 +1,1 @@
+allow vendor_agmservice_qti debugfs:dir { open read };

@@ -50,6 +50,7 @@ init_daemon_domain(hal_mtdservice_default)
 get_prop(hal_mtdservice_default, vendor_system_prop)
 set_prop(hal_mtdservice_default, vendor_system_prop)
 get_prop(hal_mtdservice_default, vendor_cpuid_prop)
+set_prop(hal_mtdservice_default, vendor_mlipay_prop);
 set_prop(hal_mtdservice_default, vendor_payment_security_prop)
 hwbinder_use(hal_mtdservice_default)
 hal_server_domain(hal_mtdservice_default, hal_mtdservice)

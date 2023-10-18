@@ -18,6 +18,7 @@ allow hal_mfidoca_default hal_mtdservice_default:binder transfer;
 init_daemon_domain(hal_mfidoca_default)
 get_prop(hal_mfidoca_default, vendor_fp_prop)
 get_prop(hal_mfidoca_default, vendor_system_prop)
+set_prop(hal_mfidoca_default, vendor_mlipay_prop);
 set_prop(hal_mfidoca_default, vendor_payment_security_prop)
 hwbinder_use(hal_mfidoca_default)
 hal_server_domain(hal_mfidoca_default, hal_mfidoca)
