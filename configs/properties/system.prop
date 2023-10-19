@@ -1,4 +1,5 @@
 # Bluetooth
+persist.bluetooth.sbc_hd_higher_bitrate=1
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc
 persist.vendor.btstack.enable.twsplus=true
