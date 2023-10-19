@@ -73,6 +73,9 @@
 /data/vendor/qxwz(/.*)?                                                   u:object_r:qx_oss_vendor_data_file:s0
 /mnt/vendor/persist/qxwz                                                  u:object_r:qx_oss_vendor_data_file:s0
 
+# Health
+/vendor/bin/hw/android\.hardware\.health-service\.xiaomi                  u:object_r:hal_health_default_exec:s0
+
 # IR
 /dev/ir_spi                                                               u:object_r:ir_spi_device:s0
 
@@ -100,6 +103,9 @@
 /data/vendor/images(/.*)?                                                 u:object_r:ta_data_file:s0
 /mnt/vendor/persist/fdsd(/.*)?                                            u:object_r:vendor_persist_drm_file:s0
 
+# MMC
+/sys/devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/discard_max_bytes u:object_r:sysfs_mmc_host:s0
+
 # Modem
 /dev/smd8 u:object_r:vendor_radio_smd_device:s0
 
@@ -117,7 +123,6 @@
 /vendor/bin/hw/vendor\.xiaomi\.sensor\.citsensorservice@2\.0-service      u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
 /vendor/bin/hw/android\.hardware\.sensors@2.1-service\.xiaomi-multihal    u:object_r:hal_sensors_default_exec:s0
 /vendor/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service               u:object_r:vendor_hal_sensorcommunicate_default_exec:s0
-/dev/stmvl53l5                                                            u:object_r:stmvl53l5_device:s0
 
 # SLA
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.sla\.service\@1\.0-service    u:object_r:hal_slaservice_qti_exec:s0
