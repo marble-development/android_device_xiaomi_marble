@@ -64,3 +64,5 @@ binder_call(vendor_hal_citsensorservice_xiaomi_default, hal_graphics_composer_de
 binder_call(vendor_hal_citsensorservice_xiaomi_default, system_server)
 
 r_dir_file(vendor_hal_citsensorservice_xiaomi_default, vendor_persist_sensors_file)
+
+get_prop(vendor_hal_citsensorservice_xiaomi_default, vendor_displayfeature_prop)
