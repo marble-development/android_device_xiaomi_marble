@@ -6,6 +6,9 @@ on early-boot
     write /sys/class/remoteproc/remoteproc3/recovery enabled
 
 on boot
+    # citsensorservice
+    start citsensor-hal-2-0
+
     # DT2W
     chown system system /dev/xiaomi-touch
     chmod 0660 /dev/xiaomi-touch
