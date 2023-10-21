@@ -62,6 +62,9 @@ function blob_fixup() {
     vendor/etc/camera/pureView_parameter.xml)
         sed -i "s/=\([0-9]\+\)>/=\"\1\">/g" "${2}"
         ;;
+    vendor/bin/init.qti.media.sh)
+        sed -i "s#build_codename -le \"13\"#build_codename -le \"14\"#" "${2}"
+        ;;
     vendor/bin/sensors.qti)
         "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
         ;;
