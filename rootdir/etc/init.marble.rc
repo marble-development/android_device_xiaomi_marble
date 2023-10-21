@@ -26,7 +26,6 @@ on boot
     write /sys/devices/virtual/mi_display/disp_feature/disp-DSI-0/doze_brightness -1
 
 on post-fs
-    # Backlight
     chown system system /sys/class/backlight/panel0-backlight/brightness
     chown system system /sys/class/backlight/panel0-backlight/max_brightness
 
