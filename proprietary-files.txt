@@ -1531,6 +1531,10 @@ vendor/lib64/soundfx/libswvqe.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
+# Display (SDM) - from Pong qssi-user 14 UP1A.231005.007 2310072102 release-keys
+vendor/lib/libsdedrm.so|932f321d4168e4fb91b449899ff1544710bf49c1
+vendor/lib64/libsdedrm.so|cb159b4ea1b98cf192e7ffb582d135b7f229579b
+
 # DPM
 system_ext/bin/dpmd
 system_ext/bin/tcmd
