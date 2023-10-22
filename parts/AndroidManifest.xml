@@ -66,7 +66,7 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/dirac_summary" />
-        </activity-->
+        </activity>
 
         <activity
             android:name=".dolby.DolbyActivity"
@@ -94,7 +94,7 @@
         <provider
             android:name=".SummaryProvider"
             android:authorities="org.lineageos.settings.device.summary">
-        </provider>
+        </provider-->
 
         <service
             android:name=".doze.DozeService"
@@ -177,7 +177,7 @@
             android:permission="ThermalService">
         </service>
 
-        <service
+        <!--service
             android:name=".dolby.DolbyTileService"
             android:exported="true"
             android:icon="@drawable/ic_dolby_qs"
@@ -186,7 +186,7 @@
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
-        </service>
+        </service!-->
 
         <service
             android:name=".doze.PocketService"

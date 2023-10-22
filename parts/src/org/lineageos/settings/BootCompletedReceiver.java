@@ -49,7 +49,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         // }
 
         // Dolby Atmos
-        DolbyUtils.getInstance(context).onBootCompleted();
+        // DolbyUtils.getInstance(context).onBootCompleted();
 
         // Doze
         DozeUtils.checkDozeService(context);
