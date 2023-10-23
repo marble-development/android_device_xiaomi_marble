@@ -148,7 +148,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libgpu_tonemapper \
     libqservice \
-    libsdedrm \
     libsdmcore \
     libsdmutils \
     libtinyxml \
