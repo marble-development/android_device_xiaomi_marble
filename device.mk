@@ -216,6 +216,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss-V1-ndk.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.power@1.2.vendor \
     libgrpc++_unsecure.vendor
